@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: lightgrey;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+div {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+button {
+  border-radius: 15px;
+  color: gold;
+  background-color: black;
+  border: none;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: lightslategray;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
